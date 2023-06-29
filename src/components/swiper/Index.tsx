@@ -8,8 +8,6 @@ import "swiper/css/navigation";
 import "swiper/css/pagination";
 
 // Import modules
-//@ts-ignore
-import { Pagination } from "swiper";
 
 
 interface SliderProps{
@@ -18,6 +16,8 @@ interface SliderProps{
 }
 
 export default function Slider({ slideContent }:SliderProps) {
+
+
     return(
         <Swiper
             spaceBetween={30}
@@ -29,7 +29,6 @@ export default function Slider({ slideContent }:SliderProps) {
             pagination={{
             clickable: true,
             }}
-            modules={[Pagination]}
             className="mySwiper w-[90%] lg:w-[70%] max-w-[1000px] rounded"
         >
             {slideContent.map((content, index:number) => (

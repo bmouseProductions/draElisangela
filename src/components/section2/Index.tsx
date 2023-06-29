@@ -84,12 +84,11 @@ export default function Section2() {
                     <iframe className="w-full lg:w-[80%] h-[200px] md:h-[350px] lg:h-[450px] " src="https://www.youtube.com/embed/NAL80R4zN3M" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen></iframe>
                 </div>
             </div>
-
+            
             <Slider
                 slideContent= {slideContent}
                 slideCount= {slideCount}
             />
-
              {/* VENDAS */}
              <div data-aos="zoom-in-up" data-aos-duration="2000">
                 <div className="w-full px-4 py-14 lg:p-[50px] flex gap-5 flex-col items-center text-white">
