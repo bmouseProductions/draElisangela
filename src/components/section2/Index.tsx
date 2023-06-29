@@ -65,7 +65,7 @@ export default function Section2() {
             </div>
 
             <div className="w-full flex flex-col items-center gap-10 mb-10 md:mb-14 p-5">
-                <h2 className="text-[38px] md:text-5xl font-bold">Minha história com a Pediátria</h2>
+                <h2 className="text-[38px] md:text-5xl font-bold">Minha história com a Pediatria</h2>
                 <div className=" w-full lg:min-h-[450px] flex justify-center items-center video ">
                     <iframe className="w-full lg:w-[80%] h-[200px] md:h-[350px] lg:h-[450px] " src="https://www.youtube.com/embed/JNmp9kBcu5w" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen></iframe>
                 </div>
