@@ -1,5 +1,5 @@
 import { useRef, FormEvent, ChangeEvent, useState } from "react";
-import { enviarEmail } from "../../api/api.js";
+import { enviarEmail } from "../../../api/api";
 import { Button } from "@mui/material";
 import SendIcon from "@mui/icons-material/Send";
 

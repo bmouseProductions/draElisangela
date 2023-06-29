@@ -28,7 +28,7 @@ export default function Section2() {
             <div className="flex flex-col items-center">
                 <img key={1} src={depoiment2} alt="imagem tiago tessmann" className="w-[150px] rounded-full"/>
                 <h3 className="text-[26px] font-semibold ">Dalila Viviane de Barros</h3>
-                <span className="text-[18px] ">Mãe da Luana</span>
+                <span className="text-[18px] ">Mãe da Luana e do Lorenzo</span>
                 <p className="text-lg font-semibold mt-4 text-center">
                     Falar da Dra. Elisângela para mim é muito gratificante pois ela cuidou do Lorenzo em momentos difíceis e fez isso com muita segurança. O momento que me fez conhecer ela foi quando ele tinha um aninho (hoje já está com quatros anos) e teve suspeita de alergia alimentar. Ela prontamente fez os exames e tudo o que era necessário e verificou que essa alergia não existia. Pouco tempo depois conseguimos identificar que existia alergia de outras coisas que levavam ele a quadros respiratórios complicados e ela, com muita capacidade, começou com um tratamente de imunidade que tem dado muito certo com vacina. Estamos muito felizes e ele está muito bem. A Dra. Elisângela é uma excelente profissional, com conhecimento científico formidável, que passa confiança pra gente e graças a Deus temos ela em nossa vida.
                 </p>
